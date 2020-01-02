@@ -5,42 +5,51 @@ Colors:
 #777777; <--gray
 
 */
-
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', 'sans-serif';
     color: #222;
-  }
+    background-image: url(../images/swirl_pattern.png);
+}
+
+.portfolio {
+    background-image: url(../images/swirl_pattern.png);
+}
 
 .robTitle {
-    
-    margin-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 1.5rem 1rem;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 300px
-    
+    width: 300px;
+    margin-left: 15px;
+    border: 1px solid #;
 }
 
-
+.navbar {
+    padding: 0;
+    justify-content: flex-end !important;
+}
 
 .robImage {
     width: 35%;
-    height: auto;     
-    
+    height: auto;
+
+}
+
+.contentBackPort h3 {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .navStyle {
     background-color: white;
     border-bottom: 2px solid #cccccc;
+    justify-content: space-between;
+    align-items: center;
 
-}
-
-.nav-item {
-   margin-right: 30px;
 }
 
 .nav-link {
@@ -48,212 +57,235 @@ html, body {
 }
 
 .main-background {
-background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/swirl_pattern.png);
-background-repeat: repeat;
-padding-top: 30px;
+    background-image: url(../images/swirl_pattern.png);
+    background-repeat: repeat;
 }
 
 .contentBack {
     background-color: #ffffff;
-    height: 100%;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 70px;
     padding-top: 20px;
     border: 2px solid #dddddd;
-    
+}
+
+.boxback {
+    justify-content: center;
+}
+
+.contentBackPort {
+    background-color: #ffffff;
+    padding-top: 20px;
+    border: 2px solid #dddddd;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
 }
 
 .contentText {
-word-spacing: .25em;
-line-height: 1.5em;
-padding-top: 8px;
-color: #777777;
-font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+   
+    word-spacing: .25em;
+    line-height: 1.5em;
+    padding-top: 8px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
-
-footer {
-
-    background-color: #666666;
-    color: #d5d5d5;
-    padding-top: 40px;
-    width: 100%;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
-  }
-
-  .footerLine {
-      background-color: #4aaaa5;
-      height: 70px;
-      width: 100%;
-  }
-
-  .titleLine {
-       border: 1px solid #777777;
-  }
-  
-  .contentHeading {
-      color: #4aaaa5;
-      font-family: 'Georgia', Times, 'Times New Roman', serif;
-
-  }
-
-  .boxTitle {
-    list-style: none;
-    height: 150px;
-    width: 200px;
-    margin: 10px 0 10px 0;
-    background-size: 100%;
+.titleLine {
+    border: 1px solid #777777;
 }
 
-ul {
-    display: grid;
-    grid-template-columns: 30% 30%;
-    background-color: white;
-    padding: 10px;
+.contentHeading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.portLine {
+    border: 1px solid gray;
+}
+
+.wordGuessBox {
+    height: 200px;
+    background-image: url(../images/hangman.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #777777;
+}
+
+
+.rpgBox {
+    height: 200px;
+    background-image: url(../images/rpg.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #777777;
+}
+
+.infoBox {
+    height: 200px;
+    background-image: url(../images/rutgers.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #777777;
+}
+
+
+.triviaBox {
+    height: 200px;
+    background-image: url(../images/trivia.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #777777;
+}
+
+.rpsBox {
+    height: 200px;
+    background-image: url(../images/rps.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #777777;
 }
 
 .boxText {
-    background: #4aaaa5;
-    width: 200px;
-    height: 40px;
     color: white;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    top: 80px;
-    right: 15px;
-    line-height: 40px;
-}
-
-#hangmanImage {
-    background-image: url("../images/hangman.jpg");
-    background-size: 100%;
-    height: 150px;
-    width: 200px;
-}
-
-#rpgImage {
-    background-image: url("../assets/images/rpg.jpg");
-    background-size: 100%;
-    height: 150px;
-    width: 200px;
-}
-#triviaImage {
-    background-image: url(../images/trivia.jpg);
-    background-size: 100%;
-    height: 150px;
-    width: 200px;
-}
-
-#rutgersImage {
-    background-image: url(../images/rutgers.jpg);
-    background-size: 100%;
-    height: 150px;
-    width: 200px;
-}
-
-#rpsImage {
-    background-image: url(../images/rps.jpg);
-    background-size: 100%;
-    height: 150px;
-    width: 200px;
-
-
-
-@media (max-width: 766px) {
-    .robTitle {
-        margin-left: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 100%;
-       
-    }
-
-    .navbarLinks {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .contentBack {
-        background-color: #ffffff;
-        height: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-        margin-top: 110px;
-    }
-        .robImage {
-           
-            width: 100%;
-            height: auto;
-            align-content: center;
-        }
-
-        .contentText {
-            word-spacing: .25em;
-            line-height: 1.5em;
-            }
-        
-    
-}
-
-
-
-/*
-body {
-    height: 100%;
-    width: 100%;
-}
-
-.titleRob {
-    color: #ffffff;
     background-color: #4aaaa5;
-    height: 50px;
+    padding: 10px;
+    position: absolute;
     width: 100%;
-    justify-content: center;
-    font-size: 25px;
-    padding-top: 20px;
-}
-
-.nav-links {
-    color: gray;
-    }
-
-.imgBack {
-background-color: blue;
-height: 100%;
-width: 100%;
+    bottom: 0px;
+    border: 1px solid #777777;
 }
 
 
-@media (max-width: 640px) {
 
-   .linksNav {
-       justify-content: center;
-        right: 30%;
+ul {
+    margin: 0 auto;
+    background-color: white;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding-left: 0;
+}
+
+
+footer {
+    background-color: #666666;
+    color: #d5d5d5;
+    padding-top: 0;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footerLine {
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 100%;
+    margin-
+}
+
+@media screen and (max-width:767px) {
+    .robImage {
+        width: 100%;
+        height: auto;
+
     }
 
-    #titleRob {
-        left: 40%;
+    .robTitle {
+        width: auto;
+        font-size: 20px;
+        margin-left: 0;
     }
+
 
 }
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+@media screen and (max-width:567px) {
+    .navbar {
+        padding: 0;
+        justify-content: center !important;
+    }
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+    .contentBackPort {
+        margin-top: 145px;
+    }
+}
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+
+@media screen and (max-width:767px) {
+    .wordGuessBox {
+        height: 300px;
+        background-image: url(../images/hangman.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+
+
+    .rpgBox {
+        height: 300px;
+        background-image: url(../images/rps.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+
+    .infoBox {
+        height: 300px;
+        background-image: url(../images/rutgers.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+
+
+    .triviaBox {
+        height: 300px;
+        background-image: url(../images/trivia.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+
+    .rpsBox {
+        height: 300px;
+        background-image: url(../images/rps.jpg);
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+
+    .boxText {
+        color: white;
+        background-color: #4aaaa5;
+        padding: 20px;
+        margin-bottom: 50px;
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    ul {
+        margin: 0 auto;
+        background-color: white;
+        list-style: none;
+        display: list-item;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        padding-left: 0;
+    }
+}
