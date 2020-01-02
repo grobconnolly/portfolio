@@ -14,6 +14,12 @@ body {
     background-image: url(../images/swirl_pattern.png);
 }
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+.form-row {
+    font-family: Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
+}
 .portfolio {
     background-image: url(../images/swirl_pattern.png);
 }
@@ -28,20 +34,34 @@ body {
     border: 1px solid #;
 }
 
+.submitBack {
+    background-color: #4aaaa5;
+    color: white;
+    border-radius: 0;
+    width: 140px;
+    margin-bottom: 20px; 
+}
+
 .navbar {
     padding: 0;
     justify-content: flex-end !important;
+}
+.formText {
+font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+color: #777777;
 }
 
 .robImage {
     width: 35%;
     height: auto;
+    margin-right: 10px;
 
 }
 
 .contentBackPort h3 {
     text-align: left;
     margin-bottom: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .navStyle {
