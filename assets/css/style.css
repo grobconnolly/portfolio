@@ -64,6 +64,8 @@ color: #777777;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+
+
 .navStyle {
     background-color: white;
     border-bottom: 2px solid #cccccc;
@@ -235,6 +237,8 @@ footer {
 
     .contentBackPort {
         margin-top: 145px;
+        margin-bottom: 90px;
+        
     }
 }
 
@@ -307,5 +311,10 @@ footer {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 20px;
         padding-left: 0;
+    }
+    .contentBackPort {
+        margin-top: 145px;
+        margin-bottom: 90px;
+        
     }
 }
