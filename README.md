@@ -17,7 +17,7 @@
 
 <h2><b><u>Technologies Used:</h2></b></u>
 <ul>
-<li>Bootstap 4</li>
+<li>Bootstrap 4</li>
 <li>HTML</li>
 <li>CSS</li>
 <li>Virtual Studio Code</li>
