@@ -158,6 +158,17 @@ color: #777777;
 .triviaBox {
     background-image: url(../images/trivia.jpg);
 }
+.codeBox {
+    background-image: url(../images/quiz.jpg);
+}
+
+.weatherBox {
+    background-image: url(../images/weather.jpg);
+}
+
+.currencyBox {
+    background-image: url(../images/currency.jpg);
+}
 
 .rpsBox {
     background-image: url(../images/rps.jpg);
